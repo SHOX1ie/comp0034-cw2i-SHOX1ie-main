@@ -1,0 +1,19 @@
+[project]
+name = "comp0034-cw2i-SHOX1ie"
+version = "1"
+description = "COMP0034 Coursework 2: A Dash application for data analysis and visualization."
+dependencies = [
+    # Ommitted - see requirements.txt
+]
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]  # list of folders that contain the packages (["."] by default)
+exclude = ["tests"]
+
+[tool.pytest.ini_options]
+addopts = "-v"
+testpaths = ["tests",]

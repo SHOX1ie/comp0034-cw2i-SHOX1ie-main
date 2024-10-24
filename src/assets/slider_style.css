@@ -1,0 +1,22 @@
+/* Customize the RangeSlider handles */
+.custom-range-slider .rc-slider-handle {
+    background-color: #ff9500;
+    border: none;
+    outline: none;
+}
+
+/* Customize the RangeSlider track */
+.custom-range-slider .rc-slider-track {
+    background-color: #0fb3a5;
+}
+
+/* Customize the RangeSlider rail */
+.custom-range-slider .rc-slider-rail {
+    background-color: #e62c0b;
+}
+
+/* Customize the RangeSlider marks (time labels) */
+.custom-range-slider .rc-slider-mark-text {
+    color: #1d1101;
+    font-size: 12px;
+}
